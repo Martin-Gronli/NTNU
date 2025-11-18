@@ -1,1 +1,2 @@
-# IDATT1003
+# NTNU
+Inneholder fag jeg har hatt på bacheloremne på NTNU
