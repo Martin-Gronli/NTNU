@@ -1,0 +1,77 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Matrices",
+      "request": "launch",
+      "mainClass": "Matrices",
+      "projectName": "exercise_6_df115d82"
+    },
+    {
+      "type": "java",
+      "name": "TextProgram",
+      "request": "launch",
+      "mainClass": "TextProgram",
+      "projectName": "exercise_6_df115d82"
+    },
+    {
+      "type": "java",
+      "name": "RandomCounter",
+      "request": "launch",
+      "mainClass": "RandomCounter",
+      "projectName": "exercise_6_df115d82"
+    },
+    {
+      "type": "java",
+      "name": "TextProgram",
+      "request": "launch",
+      "mainClass": "TextProgram",
+      "projectName": "exercise_6_a9dc99a2"
+    },
+    {
+      "type": "java",
+      "name": "TextAnalysis",
+      "request": "launch",
+      "mainClass": "TextAnalysis",
+      "projectName": "exercise_6_a9dc99a2"
+    },
+    {
+      "type": "java",
+      "name": "RandomCounter",
+      "request": "launch",
+      "mainClass": "RandomCounter",
+      "projectName": "exercise_6_a9dc99a2"
+    },
+    {
+      "type": "java",
+      "name": "Matrices",
+      "request": "launch",
+      "mainClass": "Matrices",
+      "projectName": "exercise_6_a9dc99a2"
+    },
+    {
+      "type": "java",
+      "name": "MatrixProgram2",
+      "request": "launch",
+      "mainClass": "MatrixProgram2",
+      "projectName": "exercise_6_a9dc99a2"
+    },
+    {
+      "type": "java",
+      "name": "JamaExample",
+      "request": "launch",
+      "mainClass": "JamaExample",
+      "projectName": "exercise_6_a9dc99a2"
+    },
+    {
+      "type": "java",
+      "name": "Launch MatrixProgram",
+      "request": "launch",
+      "mainClass": "MatrixProgram",
+      "classPaths": [
+        "lib/jama.jar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+@startuml
+actor User
+participant Client
+participant Employee
+participant Person
+
+User -> Client: start program()
+Client -> Person: new Person("Arvid","Hansen",1980)
+Client -> Employee: new Employee(person,432,2010,55000,29.0)
+
+User -> Client: choose "Show info"
+Client -> Employee: getName()
+Employee -> Person: getLastName()
+Employee <- Person: "Hansen"
+Employee -> Person: getFirstName()
+Employee <- Person: "Arvid"
+Client <- Employee: "Hansen, Arvid"
+
+Client -> Employee: getAge()
+Employee -> Person: getBirthYear()
+Employee <- Person: 1985
+Client <- Employee: 40
+
+Client -> Employee: getYearsEmployed()
+Client <- Employee: 13
+
+Client -> Employee: isEmployedMoreThan(10)
+Client <- Employee: true
+
+Client -> User: shows result on screen
+@enduml
